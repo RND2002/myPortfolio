@@ -9,10 +9,12 @@ import go from '../assets/go.svg';
 import git from '../assets/git.png';
 import tailwind from '../assets/tailwind.png';
 import python from '../assets/python.png';
+import ml from '../assets/ml.png'
 
 const skills = [
   { name: 'Java', image: java },
   { name: 'Spring', image: spring },
+  {name:'Machine Learning',image:ml},
   { name: 'JavaScript', image: js },
   { name: 'React', image: reactLogo },
   { name: 'MySQL', image: mysql },
