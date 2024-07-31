@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='h-28 bg-background flex justify-around'>
         <div><img className='mt-10 w-12' src={logo} alt=''/></div>
-        <div className='md:hidden mt-10'>
+        <div className='md:hidden mt-12'>
           {
             showNav ?(
               <CgClose className='text-white text-2xl cursor-pointer block' size={32} onClick={()=>setShowNav(!showNav)}/>
@@ -28,6 +28,9 @@ const Navbar = () => {
   </span>
   <span className='text-whitenew font-sans font-normal text-lg m-6'>
     <a className='cursor-pointer hover:text-gray-400' href='#contact'>Contact</a>
+  </span>
+  <span className='text-whitenew font-sans font-normal text-lg m-6'>
+    <a className='cursor-pointer hover:text-gray-400' href='https://drive.google.com/file/d/1hm6u6ZVok1EAlURTwTHiPE3u1mMbfYAB/view?usp=drivesdk'>Resume</a>
   </span>
 </div>
 

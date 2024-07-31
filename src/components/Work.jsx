@@ -12,33 +12,34 @@ const projects = [
     image: social,
     description:
       "A social media platform for connecting with friends, sharing updates, and more.",
-    link: "",
-  },
-  {
-    name: "Quiz App",
-    image: quiz,
-    description:
-      "An interactive quiz application with various categories and difficulty levels.",
-    link: "",
+    link: "https://github.com/RND2002/voyage-fullstack",
   },
   {
     name: "Education Platform",
     image: education,
     description:
       "An online learning platform for students where they can share and download resources lectures and files.",
-    link: "",
+    link: "https://github.com/RND2002/education-platoform-fullstack",
   },
   {
-    name: "Banking System",
+    name: "Quiz App",
+    image: quiz,
+    description:
+      "An interactive quiz application with various categories and difficulty levels.",
+    link: "https://github.com/RND2002/Quiz-app-fullstack",
+  },
+  
+  {
+    name: "Desktop Banking System",
     image: bank,
     description:
       "A secure and robust banking system application for managing transactions and accounts.",
-    link: "",
+    link: "https://github.com/RND2002/Bank-Management-System",
   },
 ];
 const Work = () => {
   return (
-    <>
+    <section id="portfolio">
     <center><h3 className="text-whitenew text-3xl md:text-5xl m-8 font-semibold">Portfolio</h3></center>
         <div className="flex items-center justify-center">
         
@@ -65,7 +66,7 @@ const Work = () => {
                   </div>
 
                   <a
-                    href="your-link-here"
+                    href={project.link}
                     className="border-2 p-2 rounded-lg flex items-center gap-2 bg-white text-background text-xl"
                   >
                     <span>See More</span>
@@ -78,7 +79,7 @@ const Work = () => {
         ))}
       </div>
     </div>
-    </>
+    </section>
 
   );
 };
