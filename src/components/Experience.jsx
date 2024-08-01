@@ -49,9 +49,10 @@ const Experience = () => {
           <span className="inline-block h-40 w-1 sm:mt-2 bg-whitenew"></span>
         </div>
         <div className="mt-4 sm:mt-0 sm:ml-4 flex-1">
-          <h4 className="text-yellow text-center text-xl">
+          <h4 className="text-yellow text-center text-2xl md:text-4xl ">
             Backend Engineer at Blubook Solutions
           </h4>
+          <div className="h-1 w-[100%] bg-white mt-2 mb-2 "></div>
           <p className="text-whitenew font-normal">
           
             <p>
