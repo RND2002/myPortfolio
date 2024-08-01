@@ -31,7 +31,7 @@ function Dashboard() {
 
     
     
-    <h3 class=" text-3xl text-white font-bold">Software Enginner</h3>
+    <h3 class=" text-3xl text-white font-bold">Software Engineer</h3>
     <div class="mt-5">
      <a  href='#contact'> <button class="border-4 border-yellow rounded-lg  text-whitenew text-xl font-bold px-8 py-2 bg-navColor">Contact Me</button></a>
     </div>
