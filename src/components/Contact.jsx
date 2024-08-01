@@ -7,7 +7,7 @@ import { FiGithub } from "react-icons/fi";
 import { CiFacebook } from "react-icons/ci";
 function Contact() {
   return (
-    <div id="contact" className="h-screen bg-background">
+    <div id="contact" className="h-screen mt-24  bg-background">
       <div className="flex justify-center items-center">
         <div className="h-1 w-[42%] bg-yellow"></div>
         <div>
