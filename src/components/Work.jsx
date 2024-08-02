@@ -4,9 +4,17 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import quiz from "../assets/quiz.png";
 import education from "../assets/educatio.png";
 import social from "../assets/social-media.png";
-import bank from "../assets/bank1.png";
+// import bank from "../assets/bank1.png";
+import recommender from '../assets/movie-recommender.webp'
 
 const projects = [
+  {
+    name: "Recommendation System",
+    image: recommender,
+    description:
+      "A content based movie recommender system using cosine similarity.",
+    link: "https://github.com/RND2002/content-based-movie-recommender",
+  },
   {
     name: "Social Media Platform",
     image: social,
@@ -29,13 +37,7 @@ const projects = [
     link: "https://github.com/RND2002/Quiz-app-fullstack",
   },
   
-  {
-    name: "Desktop Banking System",
-    image: bank,
-    description:
-      "A secure and robust banking system application for managing transactions and accounts.",
-    link: "https://github.com/RND2002/Bank-Management-System",
-  },
+  
 ];
 const Work = () => {
   return (
@@ -51,7 +53,7 @@ const Work = () => {
                 <div className="flex flex-col items-center">
                   <img src={project.image} alt="" />
                   <span className="text-whitenew">
-                    <h3 className="text-xl">{project.name}</h3>
+                    <h3 className="text-lg font-normal m-1">{project.name}</h3>
                   </span>
                 </div>
               </div>
