@@ -30,7 +30,7 @@ const Navbar = () => {
     <a className='cursor-pointer hover:text-gray-400' href='#contact'>Contact</a>
   </span>
   <span className='text-whitenew font-sans font-normal text-lg m-6'>
-    <a className='cursor-pointer hover:text-gray-400' href='https://drive.google.com/file/d/1hm6u6ZVok1EAlURTwTHiPE3u1mMbfYAB/view?usp=drivesdk'>Resume</a>
+    <a className='cursor-pointer hover:text-gray-400' href='https://drive.google.com/file/d/1jqc03ccnKkr7qaAnXHkDarM5LYMW8XSK/view?usp=drivesdk '>Resume</a>
   </span>
 </div>
 
